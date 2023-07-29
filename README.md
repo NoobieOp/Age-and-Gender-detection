@@ -14,10 +14,6 @@ Real-Time Processing: The system should operate in real-time, providing live upd
 
 Visualization: Display the live video stream with bounding boxes around the detected faces, along with the predicted age and gender labels.
 
-Accuracy and Robustness: Ensure that the system achieves high accuracy in age and gender prediction. It should be robust enough to handle variations in lighting conditions, facial expressions, and head poses.
-
-User Interface: Develop a user-friendly interface to start and stop the age and gender recognition process. Allow the user to easily exit the application.
-
 Model Loading: Implement a mechanism to load the required pre-trained models for face detection, age estimation, and gender classification from specified file paths.
 
 Performance: Optimize the system for efficient performance, ensuring smooth real-time processing without significant delays or lags.
@@ -27,4 +23,5 @@ Error Handling: Implement appropriate error handling mechanisms to handle scenar
 Deliverables:
 
 Complete source code of the age and gender recognition system, written in Python using OpenCV and relevant libraries.
+
 Pre-trained models for face detection, age estimation, and gender classification, or instructions on how to download them from reliable sources.
